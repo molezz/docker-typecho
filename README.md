@@ -7,6 +7,8 @@
 .
 ├── docker-compose.yml
 ├── logs
+│   └── cer.crt
+│   └── key.key
 ├── nginx
 │   └── typecho.conf
 └── typecho
