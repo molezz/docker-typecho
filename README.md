@@ -1,6 +1,6 @@
 # docker-typecho
 默认php:8.1-fpm, nginx:latest, PHP环境包含pdo_sqlite 
-也可以自行修改docker-compose.yml变更版本
+也可以自行修改docker-compose.yml，typecho.conf变更版本，证书位置，log位置
 
 # 文件夹目录
 ```
