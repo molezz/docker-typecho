@@ -23,5 +23,6 @@ cd docker-typecho
 wget https://github.com/typecho/typecho/releases/download/v1.2.0/typecho.zip
 unzip typecho.zip -d typecho && rm typecho.zip
 chown -R www-data:www-data typecho/
+# docker-compose up 启动确认无误后-d放入后台
 docker-compose up -d
 ```
