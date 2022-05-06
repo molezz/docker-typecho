@@ -7,7 +7,7 @@
 .
 ├── docker-compose.yml
 ├── docs
-│   └── cer.crt
+│   └── cer.cer
 │   └── key.key
 ├── nginx
 │   └── typecho.conf
