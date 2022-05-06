@@ -10,7 +10,7 @@ services:
         volumes:
             - ./typecho:/data/wwwroot/typecho
             - ./nginx/typecho.conf:/etc/nginx/conf.d/default.conf
-            - ./logs:/data/wwwlogs
+            - ./docs:/data/wwwlogs
         links:
             - php-fpm
     php-fpm:
