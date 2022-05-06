@@ -6,7 +6,7 @@
 ```
 .
 ├── docker-compose.yml
-├── logs
+├── docs
 │   └── cer.crt
 │   └── key.key
 ├── nginx
