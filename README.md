@@ -20,7 +20,7 @@ cd /docker目录
 git clone https://github.com/molezz/docker-typecho.git
 cd docker-typecho
 # 编辑docker-compose.yml 修改端口和版本，放置证书于logs下启用ssl
-wget https://github.com/typecho/typecho/releases/download/v1.2.0/typecho.zip
+wget https://github.com/typecho/typecho/releases/download/v1.2.1/typecho.zip
 # 也可以用 git clone https://github.com/typecho/typecho.git  获得最新版
 unzip typecho.zip -d typecho && rm typecho.zip
 chown -R www-data:www-data typecho/
