@@ -23,7 +23,7 @@ cd docker-typecho
 wget https://github.com/typecho/typecho/releases/download/v1.2.1/typecho.zip
 # 也可以用 git clone https://github.com/typecho/typecho.git  获得最新版
 unzip typecho.zip -d typecho && rm typecho.zip
-chown -R www-data:www-data typecho/
+修改typecho/usr目录权限避免database error
 # docker-compose up 启动确认无误后-d放入后台
 docker-compose up -d
 ```
